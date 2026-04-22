@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HITCApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Main colors for the Tech theme -->
+        <item name="colorPrimary">@color/accent_tech</item>
+        <item name="colorOnPrimary">@color/black_tech_bg</item>
+        <item name="colorPrimaryContainer">#00363D</item>
+        <item name="colorOnPrimaryContainer">@color/accent_tech</item>
+        
+        <item name="colorSecondary">@color/accent_tech</item>
+        <item name="colorOnSecondary">@color/black_tech_bg</item>
+        
+        <item name="android:windowBackground">@color/black_tech_bg</item>
+        <item name="android:statusBarColor">@color/black_tech_bg</item>
+        <item name="android:navigationBarColor">@color/black_tech_bg</item>
+
+        <!-- UI Control colors -->
+        <item name="colorControlActivated">@color/accent_tech</item>
+        <item name="colorControlNormal">@color/gray_tech_text</item>
+    </style>
+
+    <style name="Theme.HITCApp" parent="Base.Theme.HITCApp" />
+</resources>
